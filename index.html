@@ -12,7 +12,7 @@
 <div class="highlight">
   <pre class="chroma">
     <code class="language-python" data-lang="python">
-def test_new_user(db, email, password):
+    mysql> def test_new_user(db, email, password):
     new_user = User(email=email, password=password)
     db.session.add(new_user)
     db.session.commit()
